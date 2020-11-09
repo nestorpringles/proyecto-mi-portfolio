@@ -1,0 +1,225 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
+*{border: 0;
+   padding: 0;
+   margin: 0;
+box-sizing: border-box;}
+ body{
+   
+     font-family: 'Syne Mono', monospace;
+     font-weight: bold;
+
+    }
+
+    .head-container{
+        width: 100%;
+        height: 450px; 
+        display: flex; 
+        align-items: center; 
+        justify-content: center;
+        background-attachment: fixed;
+       
+        
+       
+       
+    }
+
+    
+
+    button{
+      background: teal;
+      color: white;
+      font-size: 15px;
+      border-radius: 10px;
+      padding: 20px;
+      margin-top: 10px;
+      font-family: 'Oswald', sans-serif;
+      letter-spacing: 2px;
+
+    }
+
+    button:hover{
+      background-color: tomato;
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+    header{
+        width: 100%;
+        height: 100vh;
+       background:url( https://www.todowebdesign.com.ar/images/header/banner.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: relative;
+    }
+
+    .des-banner{
+      width:90%;
+      height: 360px;
+      background: rgba(0, 0, 0, 0.5);
+      color: yellow;
+      text-align: center;
+      padding: 20px;
+    }
+
+    .des-mi{
+      background: #34D5D0;
+      text-align: center;
+      -webkit-box-shadow: 10px 10px 5px -2px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px -2px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 5px -2px rgba(0,0,0,0.75);
+      padding: 30px;
+      height: 30px;
+      width: 100%;
+    }
+    
+
+   /*  .hola y .bien titulo */
+
+.hola{
+  font-size:2em;
+  color: tomato;
+  text-align: center;
+  text-shadow: white 1px 1px;
+  font-family: 'Oswald', sans-serif;
+
+}
+
+.bien{
+  font-size:2em;
+  color: teal;
+  text-align: center;text-shadow: white 1px 1PX;
+  font-family: 'Oswald', sans-serif;
+}
+
+
+
+
+.head-container img{
+  width: 100%;
+  height: 250px;
+}
+
+  
+.contenedor{display: flex;
+  background-color: teal;
+height: 100px;
+justify-content:flex-start;
+align-items: center;
+}
+
+  .hijo1/* :logooooooooooo */
+ 
+  {
+    width: 200px;
+    height: 70px;
+    background: crimson;
+    color: black;
+    text-align: center;
+   box-sizing: border-box;
+   font-family: 'Oswald', sans-serif;
+    margin-left: 30px;
+    -webkit-box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.72); 
+box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.52);
+    
+  }
+
+  .nav li {
+    display: inline-block;
+    list-style: none;
+    margin-left: 30px;
+    height: 50px; 
+    line-height: 60px; 
+    padding: 0 40px; 
+  }
+  
+  /* : */
+  .nav li:hover {
+    background: teal;
+    color: black;
+  }
+  
+  /* T */
+  .nav-link {
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    text-decoration: none;
+  }
+
+  .hijo1 h1{text-align: center;
+    color: white;
+    text-shadow: 2px 8px 6px rgba(0,0,0,0.2),
+                     0px -5px 35px rgba(255,255,255,0.3);
+                      font-weight: bolder;
+                     margin: 2px solid yellow;
+                     margin-top: 10PX;
+                     padding: 10px;}
+  .hijo2  /* menu navegacion............*/{
+    width: 1070px;
+    height: 50px;
+    background-color:black;
+    -webkit-box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.72); 
+    box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.52);
+    font-family: 'Oswald', sans-serif;
+    color: black;
+   }
+
+  
+
+ 
+    
+ 
+
+
+
+
+
+
+
+
+
+
+ .container{
+     display: flex;
+     
+     
+     height: 330px;
+     padding: 10px;
+     box-sizing: border-box;
+     background:white;
+     position: relative;
+     justify-content: space-around;
+     align-items: center;
+     
+       
+    }
+
+
+
+
+footer{position: relative;
+    background:url(https://i.pinimg.com/originals/0e/b2/21/0eb22142e3bbe4a2e51dcbe8ae6ace80.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    width: 100%;
+    height: 90px;
+    padding: 10px;
+    color: white;
+    font-family: 'Oswald', sans-serif; }
+

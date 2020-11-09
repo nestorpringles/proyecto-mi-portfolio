@@ -1,0 +1,287 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
+*{border: 0;
+   padding: 0;
+   margin: 0;
+box-sizing: border-box;}
+ body{
+   
+     font-family: 'Syne Mono', monospace;
+     font-weight: bold;
+
+    }
+
+   
+
+.tarjetas-flex{
+    width: 100%;
+    height: 450px;
+    display: flex;
+   justify-content: center;
+   align-content: center;
+   
+    padding:  10px;
+    
+ 
+}
+.habilidades1, .habilidades2, .habilidades3{
+  width: 420px;
+  height: 280px;
+  margin: 10px;
+  background: black;
+}
+.tarjetas-flex img{
+  width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+    
+    .header-container{
+        width: 100%;
+        height: 500px;
+       background:TEAL;
+       display: flex;
+        background-size: cover;
+       
+        justify-content: center;
+        align-items: center;
+     }
+
+     .mi-texto p{
+         margin-top: 20px;
+         font-size: 17px;
+     }
+    
+
+     .texto-banner1{
+        width: 50%;
+        height: 300px;
+        background: teal;
+        
+        justify-content: center;
+        align-items: center;
+        }
+       .banner1{
+            width: 50%;
+            height: 300px;
+            background: teal;
+            
+        }
+        .banner1 img{
+           width: 30%;
+          justify-content: center;
+        }
+
+
+.mi-foto-banner img{
+  width: 100%;
+}
+    
+    
+
+  
+
+
+
+
+
+
+
+
+ 
+        .contenedor{display: flex;
+            background-color: teal;
+          height: 100px;
+          justify-content:flex-start;
+          align-items: center;
+          }
+          
+            .hijo1
+           
+            {
+              width: 200px;
+              height: 70px;
+              background: crimson;
+              color: black;
+              text-align: center;
+             box-sizing: border-box;
+             font-family: 'Oswald', sans-serif;
+              margin-left: 30px;
+              -webkit-box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.72); 
+          box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.52);
+              
+            }
+          
+            .nav li {
+              display: inline-block;
+              list-style: none;
+              margin-left: 30px;
+              height: 50px; /* should be the same as line-height */
+              line-height: 60px; /* should be the same as height */
+              padding: 0 40px; /* "0" sets top and bottom padding to none */
+            }
+            
+            /* :hover allows you change the background color of the nav items when you mouse over them. Play around with the transition value to change the speed of the hover transition. */
+            .nav li:hover {
+              background: teal;
+             
+              color: black;
+            }
+            
+            /* This rule is applied to the link <a> tag. It lets you turn off the link underline and set the link text color. */
+            .nav-link {
+              color: white;
+              font-family: 'Oswald', sans-serif;
+          
+              text-decoration: none;
+            }
+            .hijo1 h1{text-align: center;
+              color: white;
+              text-shadow: 2px 8px 6px rgba(0,0,0,0.2),
+                               0px -5px 35px rgba(255,255,255,0.3);
+                                font-weight: bolder;
+                               
+            
+          
+          margin: 2px solid yellow;
+          margin-top: 10PX;
+          padding: 10px;}
+            .hijo2{
+          
+          
+            width: 1070px;
+              height: 50px;
+              background-color:black;
+              -webkit-box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.72); 
+              box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.52);
+              font-family: 'Oswald', sans-serif;
+          
+              color: black;
+          
+              
+                }
+  
+ 
+
+ 
+
+  
+
+ 
+ 
+
+         .grid-mi-des {
+             display: grid;
+             width: 100%;
+             height: 400px;
+             grid-template-columns: 1fr 1fr;
+             grid-template-rows: 300px;
+             background: teal;
+             justify-content: center;
+             align-items: center;
+             padding:  20px 30px ;
+         }
+
+         .mi-texto{
+             width: 100%;
+            }
+         .mi-texto h2{
+            font-size: 40px;
+            color: white;
+            }
+
+
+
+         .tarjetas-grid{
+          grid-template-columns: repeat(3,1fr);
+          grid-template-rows: 500px;
+          display: grid;
+          background: white;
+          padding: 0 30px;
+          justify-content: center;
+          align-items: center;
+          gap:20px;
+          
+        }
+    
+       .cuadrado1 .cuadrado2, .cuadrado3{
+           background: teal;
+          
+       }
+
+       
+
+
+       .tarjetas-grid img{ 
+           width: 420px;
+       }
+      
+      
+        .des-target{
+           padding: 10px;
+           text-align: center;
+           background: teal;
+           color: wheat;
+       }
+      
+       .boton-cards{
+           padding: 10px;
+           border-radius: 10px;
+           background:black;
+           color: white;
+       }
+      
+       .des-target-abajo{
+           padding: 10px;
+           margin-top: -5px;
+           -webkit-box-shadow: 10px 10px 5px -2px rgba(0,0,0,0.55);
+-moz-box-shadow: 10px 10px 5px -2px rgba(0,0,0,0.55);
+box-shadow: 10px 10px 5px -2px rgba(0,0,0,0.55);
+           text-align: center;
+           background: crimson;
+           height: 100px;
+       }
+      
+.botones{
+    padding: 10px 20px;
+    margin-left: 150px;
+    margin-top: -10px;
+}
+    
+
+
+
+
+
+
+
+    
+
+
+footer{position: relative;
+    background:url(https://i.pinimg.com/originals/0e/b2/21/0eb22142e3bbe4a2e51dcbe8ae6ace80.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 70px;
+    padding: 10px;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    
+}
+
